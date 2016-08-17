@@ -1,7 +1,5 @@
 # HeadAnimation-Swift
 
-
-# HeadAnimation
 头像挂件动画
 
 Android版看这里(https://github.com/yunyeLoveYoona/HeadAnimation)
