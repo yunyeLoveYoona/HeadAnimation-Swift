@@ -13,6 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let headGroupView = HeadGroupView()
+        headGroupView.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height * 0.3)
+        for _ in 1...10 {
+            let imageView = UIImageView()
+            imageView.image = UIImage(named: "head.png")
+            headGroupView.addSubview(imageView)
+        }
+        self.view.addSubview(headGroupView)
     }
 
     override func didReceiveMemoryWarning() {

@@ -14,6 +14,7 @@
 		22500B501D642ED100334AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22500B4E1D642ED100334AC0 /* LaunchScreen.storyboard */; };
 		22500B5B1D642ED100334AC0 /* HeadAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22500B5A1D642ED100334AC0 /* HeadAnimationTests.swift */; };
 		22500B661D642ED100334AC0 /* HeadAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22500B651D642ED100334AC0 /* HeadAnimationUITests.swift */; };
+		22500B741D642F2F00334AC0 /* HeadGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22500B731D642F2F00334AC0 /* HeadGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		22500B611D642ED100334AC0 /* HeadAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22500B651D642ED100334AC0 /* HeadAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadAnimationUITests.swift; sourceTree = "<group>"; };
 		22500B671D642ED100334AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22500B731D642F2F00334AC0 /* HeadGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				22500B4C1D642ED100334AC0 /* Assets.xcassets */,
 				22500B4E1D642ED100334AC0 /* LaunchScreen.storyboard */,
 				22500B511D642ED100334AC0 /* Info.plist */,
+				22500B731D642F2F00334AC0 /* HeadGroupView.swift */,
 			);
 			path = HeadAnimation;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22500B741D642F2F00334AC0 /* HeadGroupView.swift in Sources */,
 				22500B481D642ED100334AC0 /* ViewController.swift in Sources */,
 				22500B461D642ED100334AC0 /* AppDelegate.swift in Sources */,
 			);
